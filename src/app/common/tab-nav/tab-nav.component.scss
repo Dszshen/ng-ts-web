@@ -1,0 +1,27 @@
+.tab-nav-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  background-color: #f2f2f2;
+  .ts-btn-team-change{
+    background-color: #dddddd;
+    color:#333;
+    outline: none;
+    box-shadow: none;
+  }
+  .nav{
+    flex: 1;
+    justify-content: center;
+    .nav-item{
+      //display: flex;
+      a{
+        color:#333;
+      }
+      a:hover,.nav-link.active{
+        color:#007bff;
+        background-color: #f2f2f2;
+      }
+    }
+  }
+}

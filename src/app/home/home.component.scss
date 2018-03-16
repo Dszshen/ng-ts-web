@@ -1,0 +1,26 @@
+.index-block{
+  display: flex;
+  //background-color: #d3f1f2;
+  border:1px solid #f2f2f2;
+  justify-content: flex-start;
+  text-align: left;
+  padding:20px 15px;
+  flex-direction: column;
+  height: 100%;
+  .index-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li{
+      //flex: 20%;
+      //float: left;
+      width:20%;
+      background-color: #f2f2f2;
+      margin:20px 0 5px 36px;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      height:108px;
+    }
+  }
+}
