@@ -1,5 +1,5 @@
 {
-  "name": "ng-iot-ts-web",
+  "name": "ng-ts-web",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -26,6 +26,7 @@
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "modernizr": "^3.6.0",
     "popper.js": "^1.12.9",
     "pug": "^2.0.0",
     "pug-html-loader": "^1.1.5",
