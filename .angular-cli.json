@@ -25,8 +25,9 @@
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
         "../node_modules/popper.js/dist/umd/popper.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
-        /*"../node_modules/modernizr/bin/modernizr.js"*/
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "./assets/plugins/modernizr.custom.js",
+        "../node_modules/desandro-classie/classie.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

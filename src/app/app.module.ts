@@ -18,6 +18,7 @@ import { PaginationComponent } from './templates/pagination/pagination.component
 import { ProfileComponent } from './personal/profile/profile.component';
 import { CreateComponent } from './issue/create/create.component';
 import {TeamComponent} from './team/team.component';
+import { SideMenuComponent } from './common/side-menu/side-menu.component';
 
 
 // 路由配置
@@ -54,7 +55,8 @@ const routeConfig: Routes = [
     TableListComponent,
     PaginationComponent,
     ProfileComponent,
-    CreateComponent
+    CreateComponent,
+    SideMenuComponent
   ],
   imports: [
     BrowserModule,

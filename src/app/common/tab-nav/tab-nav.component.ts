@@ -11,5 +11,4 @@ export class TabNavComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

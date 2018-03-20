@@ -1,0 +1,63 @@
+.ts-side-menu
+  //button.btn.btn-primary((click)='showLeftMenu();') 菜单显示
+  .cbp-spmenu-push
+    nav#cbp-spmenu-s1.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-left
+      h3 菜单
+      a(href='#', target='_blank') 菜单1
+      a(href='#', target='_blank') 菜单2
+      a(href='#', target='_blank') 菜单3
+      a(href='#', target='_blank') 菜单4
+      a(href='#', target='_blank') 菜单5
+      a(href='#', target='_blank') 菜单6
+    nav#cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-right
+      h3 Menu
+      a(href='http://www.htmleaf.com/', target='_blank') Celery seakale
+      a(href='http://www.htmleaf.com/', target='_blank') Dulse daikon
+      a(href='http://www.htmleaf.com/', target='_blank') Zucchini garlic
+      a(href='http://www.htmleaf.com/', target='_blank') Catsear azuki bean
+      a(href='http://www.htmleaf.com/', target='_blank') Dandelion bunya
+      a(href='http://www.htmleaf.com/', target='_blank') Rutabaga
+    nav#cbp-spmenu-s3.cbp-spmenu.cbp-spmenu-horizontal.cbp-spmenu-top
+      h3 Menu
+      a(href='http://www.htmleaf.com/', target='_blank') Celery seakale
+      a(href='http://www.htmleaf.com/', target='_blank') Dulse daikon
+      a(href='http://www.htmleaf.com/', target='_blank') Zucchini garlic
+      a(href='http://www.htmleaf.com/', target='_blank') Catsear azuki bean
+      a(href='http://www.htmleaf.com/', target='_blank') Dandelion bunya
+      a(href='http://www.htmleaf.com/', target='_blank') Rutabaga
+      a(href='http://www.htmleaf.com/', target='_blank') Celery seakale
+      a(href='http://www.htmleaf.com/', target='_blank') Dulse daikon
+      a(href='http://www.htmleaf.com/', target='_blank') Zucchini garlic
+      a(href='http://www.htmleaf.com/', target='_blank') Catsear azuki bean
+      a(href='http://www.htmleaf.com/', target='_blank') Dandelion bunya
+      a(href='http://www.htmleaf.com/', target='_blank') Rutabaga
+    nav#cbp-spmenu-s4.cbp-spmenu.cbp-spmenu-horizontal.cbp-spmenu-bottom
+      h3 Menu
+      a(href='http://www.htmleaf.com/', target='_blank') Celery seakale
+      a(href='http://www.htmleaf.com/', target='_blank') Dulse daikon
+      a(href='http://www.htmleaf.com/', target='_blank') Zucchini garlic
+      a(href='http://www.htmleaf.com/', target='_blank') Catsear azuki bean
+      a(href='http://www.htmleaf.com/', target='_blank') Dandelion bunya
+      a(href='http://www.htmleaf.com/', target='_blank') Rutabaga
+      a(href='http://www.htmleaf.com/', target='_blank') Celery seakale
+      a(href='http://www.htmleaf.com/', target='_blank') Dulse daikon
+      a(href='http://www.htmleaf.com/', target='_blank') Zucchini garlic
+      a(href='http://www.htmleaf.com/', target='_blank') Catsear azuki bean
+      a(href='http://www.htmleaf.com/', target='_blank') Dandelion bunya
+      a(href='http://www.htmleaf.com/', target='_blank') Rutabaga
+    .container
+      header.clearfix
+        h1 Slide and Push Menus
+      .main
+        section
+          h2 Slide Menus
+          // Class "cbp-spmenu-open" gets applied to menu
+          button#showLeft((click)="showMenu('showLeft')") 显示隐藏左边菜单
+          button#showRight((click)="showMenu('showRight')") 显示隐藏右边菜单
+          button#showTop((click)="showMenu('showTop')") 显示隐藏上边菜单
+          button#showBottom((click)="showMenu('showBottom')") 显示隐藏下边菜单
+        section.buttonset
+          h2 Push Menus
+          // Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body
+          button#showLeftPush Show/Hide Left Push Menu
+          button#showRightPush Show/Hide Right Push Menu
